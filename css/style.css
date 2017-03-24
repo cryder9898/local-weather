@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Play');
+
+body {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #3E606F;
+}
+a:link, a:hover, a:visited {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: burlywood;
+}
+
+h1 {
+  font-family: Play;
+}
+
+.infobox{
+  margin: 0 auto;
+  width: 400px;
+  text-align: center;
+  background-color: #91AA9D;
+  border-radius: 5px;
+}
+
+#type {
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.location {
+  padding: 10px;
+}
