@@ -1,3 +1,3 @@
 # local-weather
 
-A freecodecamp project showcasing use of RESTful web service.
+A [freecodecamp](https://www.freecodecamp.com/cryder9898) project showcasing use of RESTful web service.
