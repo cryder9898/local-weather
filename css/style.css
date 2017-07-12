@@ -18,12 +18,11 @@ h1 {
   font-family: Play;
 }
 
-.infobox{
-  margin: 0 auto;
-  width: 400px;
-  text-align: center;
+.infobox {
+  height: 5em;
   background-color: #91AA9D;
   border-radius: 5px;
+  font-size: 3em;
 }
 
 #type {
