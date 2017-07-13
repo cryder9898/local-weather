@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Play');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Poppins|Play');
+
+html, body {
+  height: 100%;
+}
 
 body {
   font-family: Roboto, sans-serif;
@@ -6,31 +10,51 @@ body {
   color: white;
   background-color: #3E606F;
 }
+
 a:link, a:hover, a:visited {
   text-decoration: none;
 }
 
 a:link, a:visited {
-  color: burlywood;
+  color: white;
 }
 
 h1 {
   font-family: Play;
 }
 
+#city {
+  font-family: Poppins, Roboto, sans-serif;
+}
+
 .infobox {
-  height: 5em;
+  height: 5.5em;
   background-color: #91AA9D;
-  border-radius: 5px;
-  font-size: 3em;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  font-size: 3.5em;
 }
 
 #type {
-  border-style: solid;
-  border-radius: 10px;
-  padding: 5px;
+  border-style: none;
+  border-radius: 20%;
+  -moz-border-radius: 20%;
+  -webkit-border-radius: 20%;
+  padding-left: 4px;
+  padding-right: 6px;
+  background-color: #9933ff;
+}
+
+#image {
+  width: 100px;
+  height: 100px;
 }
 
 .location {
   padding: 10px;
+}
+
+.container {
+  min-height: calc(100vh - 80px);
 }
